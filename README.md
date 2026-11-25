@@ -9,8 +9,9 @@ Notes and Python experiments on the mathematics behind machine learning and arti
 | Linear algebra | [Read](docs/01-linear-algebra.md) | [Code](math_for_ai/linear_algebra.py) |
 | Optimization | [Read](docs/02-optimization.md) | [Code](math_for_ai/optimization.py) |
 | Logistic regression | [Read](docs/03-logistic-regression.md) | [Code](math_for_ai/logistic.py) |
+| Probability and simulation | [Read](docs/04-probability.md) | [Code](math_for_ai/probability.py) |
 
-The examples cover cosine similarity, orthogonal projection, least squares, truncated SVD, gradient descent, linear regression and binary logistic regression. The [Jupyter notebook](notebooks/01-foundations.ipynb) brings these concepts together using synthetic data.
+The examples cover cosine similarity, orthogonal projection, least squares, truncated SVD, gradient descent, linear regression and binary logistic regression and Bernoulli simulation. The [Jupyter notebook](notebooks/01-foundations.ipynb) brings these concepts together using synthetic data.
 
 ## Getting started
 
@@ -37,7 +38,7 @@ See the [validation notes](docs/VALIDATION.md) for the testing environment and l
 
 ## Further topics
 
-Probability, statistics, multivariable calculus, convex optimization, information theory and principal component analysis are areas for future study.
+Statistical inference, multivariable calculus, convex optimization, information theory and principal component analysis are areas for future study.
 
 ## References
 
