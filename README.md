@@ -8,8 +8,9 @@ Notes and Python experiments on the mathematics behind machine learning and arti
 | --- | --- | --- |
 | Linear algebra | [Read](docs/01-linear-algebra.md) | [Code](math_for_ai/linear_algebra.py) |
 | Optimization | [Read](docs/02-optimization.md) | [Code](math_for_ai/optimization.py) |
+| Logistic regression | [Read](docs/03-logistic-regression.md) | [Code](math_for_ai/logistic.py) |
 
-The examples cover cosine similarity, orthogonal projection, least squares, truncated SVD, gradient descent and linear regression. The [Jupyter notebook](notebooks/01-foundations.ipynb) brings these concepts together using synthetic data.
+The examples cover cosine similarity, orthogonal projection, least squares, truncated SVD, gradient descent, linear regression and binary logistic regression. The [Jupyter notebook](notebooks/01-foundations.ipynb) brings these concepts together using synthetic data.
 
 ## Getting started
 
@@ -46,7 +47,7 @@ Probability, statistics, multivariable calculus, convex optimization, informatio
 
 ## About
 
-Maintained as part of the learning journey of Linze Lowe Christ Maxime. The initial notes and code were prepared with AI assistance; the repository is educational, not a claim of original research. A project license has not yet been selected.
+Maintained as part of the learning journey of Linze Lowe Christ Maxime. The notes and code have been prepared with AI assistance; the repository is educational, not a claim of original research. A project license has not yet been selected.
 
 [Portfolio](https://christ-lowe-portfolio.vercel.app/en) · [Version française](https://christ-lowe-portfolio.vercel.app/fr)
 
