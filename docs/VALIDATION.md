@@ -14,3 +14,7 @@ Local environment of the prepared starter: Python 3.13.5, NumPy 2.3.5, Matplotli
 ## Logistic regression
 
 Nine additional tests were executed locally with NumPy 2.3.5 and passed. They cover finite-difference gradients, stable extreme logits, descent on synthetic data and invalid inputs. The original 22 tests were not rerun in this update; the full remote CI result remains to be checked. The synthetic training example is not a generalization benchmark.
+
+## Probability and simulation
+
+Seven new tests passed locally in an isolated copy of the probability module with NumPy 2.3.5. The seeded Bernoulli experiment was executed locally and its numerical results are recorded in the notes. Earlier tests were not rerun as part of this isolated check. Remote CI has not been independently confirmed.
