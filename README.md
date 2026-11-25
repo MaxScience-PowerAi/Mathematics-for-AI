@@ -1,24 +1,19 @@
-# MATHEMATICS / FOR AI
+# Mathematics for AI
 
-**From mathematical foundations to intelligent systems.**
+Notes and Python experiments on the mathematics behind machine learning and artificial intelligence, with a focus on understanding the methods rather than simply using libraries.
 
-A bilingual-oriented learning repository for the numerical foundations of AI. Prepared as an AI-assisted educational starter for the learning journey of Linze Lowe Christ Maxime (Christ Lowe). It contains worked examples, not original research results or evidence of independent authorship. Review and extend the material through your own experiments before presenting it as personal work.
+## Topics
 
-[Personal platform / EN](https://christ-lowe-portfolio.vercel.app/en) · [Plateforme / FR](https://christ-lowe-portfolio.vercel.app/fr)
+| Topic | Notes and exercises | Python implementation |
+| --- | --- | --- |
+| Linear algebra | [Read](docs/01-linear-algebra.md) | [Code](math_for_ai/linear_algebra.py) |
+| Optimization | [Read](docs/02-optimization.md) | [Code](math_for_ai/optimization.py) |
 
-## 01 / Available modules
+The examples cover cosine similarity, orthogonal projection, least squares, truncated SVD, gradient descent and linear regression. The [Jupyter notebook](notebooks/01-foundations.ipynb) brings these concepts together using synthetic data.
 
-| Module | Theory | Implementation |
-|---|---|---|
-| Linear algebra | [Notes and exercises / FR](docs/01-linear-algebra.md) | [Python](math_for_ai/linear_algebra.py) |
-| Optimization | [Notes and exercises / FR](docs/02-optimization.md) | [Python](math_for_ai/optimization.py) |
-| Computational experiments | [Jupyter notebook / FR–EN](notebooks/01-foundations.ipynb) | Synthetic deterministic examples |
+## Getting started
 
-The initial release covers cosine similarity, orthogonal projections, least squares, truncated SVD, convergence of gradient descent on a scalar quadratic, and full-batch linear regression. All calculations run locally on CPU; no API, GPU or paid service is required.
-
-## 02 / Reproduce
-
-From the repository root with Python 3.11 or later (initial validation used Python 3.13):
+Python 3.11 or later is required. No GPU or external API is needed.
 
 ```bash
 python3 -m venv .venv
@@ -28,32 +23,31 @@ python -m unittest discover -s tests -v
 python -m examples.run_demo
 ```
 
-For the notebook:
+To explore the notebook:
 
 ```bash
 python -m pip install -r requirements-notebook.txt
 python -m jupyter lab
 ```
 
-Open `notebooks/01-foundations.ipynb` and run all cells. On Windows, activate the environment with `.venv\Scripts\Activate.ps1` instead. All data are synthetic. See [validation](docs/VALIDATION.md) for the actual execution environment and limits.
+Open `notebooks/01-foundations.ipynb` and run the cells. On Windows, use `.venv\Scripts\Activate.ps1` to activate the environment instead.
 
-## 03 / Scientific roadmap
+See the [validation notes](docs/VALIDATION.md) for the testing environment and limitations.
 
-The following modules are planned, not yet implemented:
+## Further topics
 
-- Probability, random variables, expectations and Monte Carlo.
-- Statistical inference and uncertainty.
-- Multivariable calculus, Jacobians and Hessians.
-- Convex optimization, regularization and numerical conditioning.
-- Information theory, entropy and cross-entropy.
-- Eigenvalues, PCA and dimensionality reduction.
+Probability, statistics, multivariable calculus, convex optimization, information theory and principal component analysis are areas for future study.
 
-## 04 / References
+## References
 
-- Boyd & Vandenberghe, [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/).
-- Deisenroth, Faisal & Ong, [Mathematics for Machine Learning](https://mml-book.github.io/).
-- [NumPy linear algebra documentation](https://numpy.org/doc/stable/reference/routines.linalg.html).
+- Deisenroth, Faisal & Ong — [Mathematics for Machine Learning](https://mml-book.github.io/)
+- Boyd & Vandenberghe — [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/)
+- [NumPy linear algebra documentation](https://numpy.org/doc/stable/reference/routines.linalg.html)
 
-These are further-reading references; the notes and code are introductory worked examples. Dependencies are version-bounded rather than fully locked. CI is supplied but must be verified after the initial GitHub push. A repository license has not yet been selected by the owner.
+## About
 
-**En français.** Ce dépôt est une base pédagogique consacrée aux mathématiques de l'IA. Il relie les formules à des implémentations NumPy, à des tests et à des expériences reproductibles. Les ressources initiales sont préparées avec assistance IA et restent à approfondir personnellement. Aucun résultat de recherche inédit n'est revendiqué.
+Maintained as part of the learning journey of Linze Lowe Christ Maxime. The initial notes and code were prepared with AI assistance; the repository is educational, not a claim of original research. A project license has not yet been selected.
+
+[Portfolio](https://christ-lowe-portfolio.vercel.app/en) · [Version française](https://christ-lowe-portfolio.vercel.app/fr)
+
+Les notes mathématiques et les exercices sont disponibles en français dans le dossier [docs](docs).
